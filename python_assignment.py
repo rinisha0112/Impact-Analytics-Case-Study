@@ -7,7 +7,7 @@ class GraduationCeremony:
         """
         Instantiate GraduationCeremony class
 
-        :param int days: number os days in an academic year.
+        :param int days: number of days in an academic year.
         :param int constraint: not allowed to miss classes for four(default val) or more consecutive days.
         """
         if days < 0 or constraint < 0 or days < constraint:
